@@ -1,0 +1,12 @@
+{
+  "name": "node-api",
+  "version": "1.0.0",
+  "description": "Simple Node.js API for Docker assignment",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "react-nginx-app",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "scripts": {
+    "build": "echo '<html><head><title>React Docker App</title></head><body style=\"background:#282c34;color:white;font-family:sans-serif;text-align:center;padding-top:50px;\"><h1>Halo dari React SPA + Nginx di Docker!</h1><p>Aplikasi statis ini di-serve dengan sangat efisien oleh Nginx.</p></body></html>' > index.html && mkdir -p dist && mv index.html dist/"
+  }
+}
